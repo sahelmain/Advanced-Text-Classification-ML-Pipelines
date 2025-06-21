@@ -210,7 +210,7 @@ rfe_pipeline = Pipeline([
 ])
 ```
 
-### **Bonus 4: Statistical Analysis** (+10 points)
+### **Statistical Analysis** 
 
 **Hypothesis Testing Suite**:
 - **Paired t-tests**: Model performance comparison
