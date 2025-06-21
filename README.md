@@ -57,7 +57,7 @@ This project demonstrates **advanced machine learning engineering** by implement
 
 ## 🔧 Advanced Technical Implementation
 
-### **Task 1: Advanced Preprocessing Pipeline** (20 points)
+### **Task 1: Advanced Preprocessing Pipeline** 
 
 **Custom Pipeline Components**:
 ```python
@@ -81,14 +81,14 @@ class TextPreprocessor(BaseEstimator, TransformerMixin):
 - ✅ **Advanced Cleaning**: Regex-based numerical and alphanumeric token removal
 - ✅ **Pipeline Integration**: Seamless fit/transform workflow
 
-### **Task 2: Feature Engineering Pipeline** (20 points)
+### **Task 2: Feature Engineering Pipeline** 
 
 **Vectorization Optimization**:
 - **TF-IDF Integration**: Advanced parameter tuning within pipelines
 - **N-gram Analysis**: Systematic evaluation of (1,1), (1,2), (1,3) ranges
 - **Feature Selection**: Integrated SelectKBest and RFE workflows
 
-### **Task 3: GridSearchCV Hyperparameter Optimization** (30 points)
+### **Task 3: GridSearchCV Hyperparameter Optimization** 
 
 **SVM Parameter Grid** (288 combinations):
 ```python
@@ -113,14 +113,14 @@ dt_param_grid = {
 }
 ```
 
-### **Task 4: Cross-Validation & Statistical Analysis** (10 points)
+### **Task 4: Cross-Validation & Statistical Analysis** 
 
 **Robust Validation Framework**:
 - **5-Fold Cross-Validation**: Statistical mean and standard deviation analysis
 - **Stratified CV**: Balanced class distribution across folds
 - **Statistical Testing**: Paired t-tests for model comparison
 
-### **Task 5: Production ML Pipelines** (10 points)
+### **Task 5: Production ML Pipelines** 
 
 **End-to-End Architecture**:
 ```python
@@ -136,7 +136,7 @@ svm_pipeline = Pipeline([
 - **Modular Components**: Easy swapping and testing
 - **Production Ready**: Deployment-friendly architecture
 
-### **Task 6: Comprehensive Evaluation** (10 points)
+### **Task 6: Comprehensive Evaluation** 
 
 **Advanced Metrics Suite**:
 - **Performance Metrics**: Accuracy, Precision (macro/weighted), Recall, F1-score
@@ -145,9 +145,9 @@ svm_pipeline = Pipeline([
 
 ---
 
-## 🌟 Bonus Advanced Features (+40 points)
+## 🌟 Bonus Advanced Features 
 
-### **Bonus 1: Custom Pipeline Components** (+10 points)
+### **Bonus 1: Custom Pipeline Components** 
 
 **AdvancedTextPreprocessor**:
 ```python
@@ -163,7 +163,7 @@ class AdvancedTextPreprocessor(BaseEstimator, TransformerMixin):
 - Combines TF-IDF features with statistical text properties
 - Modular design for easy feature engineering experimentation
 
-### **Bonus 2: Ensemble Methods** (+10 points)
+### **Bonus 2: Ensemble Methods** 
 
 **Voting Classifiers**:
 ```python
@@ -188,7 +188,7 @@ stacking_clf = StackingClassifier([
 ], final_estimator=LogisticRegression())
 ```
 
-### **Bonus 3: Feature Selection Integration** (+10 points)
+### **Bonus 3: Feature Selection Integration**
 
 **SelectKBest Pipeline**:
 ```python
